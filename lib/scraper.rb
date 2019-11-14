@@ -4,5 +4,4 @@ require 'open-uri'
 #html = open("https://flatironschool.com/")
 
 doc = Nokogiri::HTML(open("https://flatironschool.com/"))
-#puts doc.css(".headline-26OIBN").text.strip
-puts doc.css(".content-3OTK_R")
+puts doc.css(".headline-26OIBN").text.strip
